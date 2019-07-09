@@ -8,7 +8,7 @@ import { ConfigModule } from './config/config.module';
 
 @Module({
   imports: [CatsModule, ConfigModule],
-  controllers: [AppController, CatsController],
-  providers: [AppService, CatsService],
+  controllers: [AppController],
+  providers: [AppService],
 })
 export class AppModule {}
